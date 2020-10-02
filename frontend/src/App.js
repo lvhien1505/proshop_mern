@@ -1,9 +1,23 @@
-import React from 'react';
+import React from "react";
+import { Container } from "react-bootstrap";
+
+//import component
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+//import screens
+import Home from './Screens/HomeScreen';
 
 function App() {
   return (
     <>
-     <h1>Welcome to ProShop</h1>
+      <Header />
+      <main>
+        <Container>
+          <Home/>
+        </Container>
+      </main>
+      <Footer />
     </>
   );
 }
