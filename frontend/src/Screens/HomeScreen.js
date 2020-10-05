@@ -8,7 +8,7 @@ import products from '../products';
 const HomeScreen = () => {
     return (
         <>
-           <h1 className="mt-3">Latest Products</h1>
+           <h1 className="mt-3">Sản phẩm mới</h1>
            <Row>
             {
                products.map((product,key)=>(
